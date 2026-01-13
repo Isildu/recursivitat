@@ -23,6 +23,7 @@ fun menu(){
     var opcio = readInt("Escolleix un numero de les opcions", "No se a introduit un nombre enter", "Nombre no pot ser inferior a 1 ni superior a 9", 1, 9)
     when (opcio){
         1 -> ex1(readInt("Introdueix un numero per obtenir el seu factorial", "No se a introduit un nombre enter", "Nombre no pot ser negatiu ni superior a 12(limitacions del programa)", 0, 12))
+        2 -> ex2(readInt("Introdueix un numero per obtenir el seu factorial", "No se a introduit un nombre enter", "Nombre no pot ser negatiu ni superior a 12(limitacions del programa)", 0, 12))
         else -> println("En proces de desarrollament")
     }
 }
